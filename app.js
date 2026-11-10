@@ -44,4 +44,28 @@
       status.textContent = "Comparte este enlace: " + shareUrl;
     }
   });
+  // Optional share-station link copied in the currently selected language.
+  const copyButton = document.getElementById("copyCampaignLink");
+  const copyStatus = document.getElementById("copyCampaignStatus");
+  if (copyButton && copyStatus) {
+    copyButton.addEventListener("click", async () => {
+      const link = new URL(window.location.href);
+      link.search = "";
+      link.hash = "";
+      link.searchParams.set("source", "compartido");
+      const value = link.toString();
+      try {
+        if (!navigator.clipboard || !window.isSecureContext) {
+          copyStatus.textContent = value;
+          return;
+        }
+        await navigator.clipboard.writeText(value);
+        copyStatus.textContent = document.documentElement.lang === "en"
+          ? "Campaign link copied. Share it with friends!"
+          : "Enlace copiado. ¡Compártelo con tus amigos!";
+      } catch (error) {
+        copyStatus.textContent = value;
+      }
+    });
+  }
 })();

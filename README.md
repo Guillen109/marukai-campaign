@@ -31,3 +31,11 @@ The `source` URL parameter is a share label, not a server analytics service.
 The static site has no account login, mailing list, server-side attribution,
 or automatic publishing. Sharing link parameters are labels, NOT measured
 conversion events. Three official outbound links only.
+
+
+## V1.5 — community sharing station
+
+Spanish and English pages now include an on-page QR code, a copyable
+language-preserving campaign link, and a locally hosted media-kit download.
+No external widgets, forms, analytics cookies, extra outbound destinations
+or Macuto Imperium shopping links have been introduced.

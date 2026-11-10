@@ -106,3 +106,23 @@ a:focus-visible,button:focus-visible{outline:3px solid var(--teal);outline-offse
 .game-facts strong{font-size:15px;color:var(--gold);padding-right:4px}
 @media(max-width:470px){.header-actions{gap:7px}.lang-switch{padding:10px 9px;min-width:39px}
  .nav-cta{padding:10px 8px;font-size:9px}.game-facts{gap:7px}.game-facts span{margin-right:0;padding:5px 8px 5px 0}}
+
+
+/* Share station: static, accessible, no tracking or external widgets. */
+.share-tools{max-width:1510px;margin:0 auto;padding:60px clamp(25px,5.5vw,100px) 100px;display:grid;
+grid-template-columns:minmax(0,1fr) minmax(240px,310px);gap:clamp(30px,5vw,95px);align-items:center;
+border-top:1px solid var(--line)}
+.share-tools-copy h2{font-size:clamp(2rem,3.8vw,4rem);line-height:1.14;letter-spacing:-.04em;margin:17px 0 20px}
+.share-tools-copy h2 span{color:var(--gold)}
+.share-tools-copy p:not(.eyebrow){max-width:750px;color:var(--muted);line-height:1.75}
+.share-tools-actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0 9px}
+.share-tools-status{min-height:24px;font-weight:700;color:var(--teal);font-size:13px}
+.share-tools .share-tools-note{font-size:12px}
+.qr-panel{justify-self:center;background:linear-gradient(160deg,#1c3440,#101d2b);border:1px solid var(--line);
+padding:22px;width:min(100%,310px);text-align:center}
+.qr-panel img{width:100%;height:auto;display:block;background:#fff;border-radius:4px}
+.qr-panel div{display:flex;flex-direction:column;gap:10px;padding:16px 3px 0}
+.qr-panel strong{font-size:10px;letter-spacing:.09em;color:var(--bone)}
+.qr-panel a{font-size:12px;text-decoration:underline;text-underline-offset:3px;color:var(--teal)}
+@media(max-width:800px){.share-tools{grid-template-columns:1fr;padding:60px 25px 75px}.qr-panel{justify-self:start}}
+@media(max-width:470px){.share-tools-actions{display:flex;flex-direction:column}.qr-panel{justify-self:center}}
