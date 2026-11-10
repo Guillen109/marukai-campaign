@@ -13,3 +13,21 @@ email capture or the private Macuto shop.
 
 The published site is https://guillen109.github.io/marukai-campaign/
 The `source` URL parameter is a share label, not a server analytics service.
+
+## Languages and discovery
+
+- Spanish: / (index.html)
+- English: /en.html
+- Both pages include canonical, hreflang, Open Graph, Twitter image, and
+  JSON-LD VideoGame metadata based on the game's actual itch.io listing.
+- robots.txt and sitemap.xml provide discovery URLs.
+
+## Promotion materials
+
+- press-kit.md: ready-to-review ES/EN descriptions, short posts and hashtags
+- marukai-qr.png: scannable QR code pointing to the public campaign homepage
+- marukai-social.jpg: 1200x630 social preview image
+
+The static site has no account login, mailing list, server-side attribution,
+or automatic publishing. Sharing link parameters are labels, NOT measured
+conversion events. Three official outbound links only.

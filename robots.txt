@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://guillen109.github.io/marukai-campaign/sitemap.xml
