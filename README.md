@@ -39,3 +39,12 @@ Spanish and English pages now include an on-page QR code, a copyable
 language-preserving campaign link, and a locally hosted media-kit download.
 No external widgets, forms, analytics cookies, extra outbound destinations
 or Macuto Imperium shopping links have been introduced.
+
+
+
+## V1.6 — first Kickstarter update highlighted
+
+The bilingual landing page now includes a compact Kickstarter news panel.
+The panel links directly to update #1 and distinguishes the available
+free Windows edition from the still-developing 3D fighter.
+The public page still has only three external platform domains.

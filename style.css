@@ -126,3 +126,18 @@ padding:22px;width:min(100%,310px);text-align:center}
 .qr-panel a{font-size:12px;text-decoration:underline;text-underline-offset:3px;color:var(--teal)}
 @media(max-width:800px){.share-tools{grid-template-columns:1fr;padding:60px 25px 75px}.qr-panel{justify-self:start}}
 @media(max-width:470px){.share-tools-actions{display:flex;flex-direction:column}.qr-panel{justify-self:center}}
+
+/* Public Kickstarter progress update; no tracking, embeds or new sites. */
+.latest-news{max-width:1360px;margin:36px auto 0;padding:25px clamp(22px,4vw,50px);
+  border:1px solid rgba(223,178,110,.36);background:linear-gradient(100deg,#182a35,#101d2b);
+  display:grid;grid-template-columns:200px minmax(0,1fr) auto;gap:22px;align-items:center}
+.latest-news-label{color:var(--teal);font-size:10px;font-weight:900;letter-spacing:.09em;
+  line-height:1.65;display:flex;align-items:center;gap:12px}
+.latest-news-copy h2{font-size:clamp(18px,2.1vw,28px);line-height:1.2;letter-spacing:-.03em;margin:0 0 6px}
+.latest-news-copy p{color:var(--muted);font-size:13px;line-height:1.65;margin:0;max-width:620px}
+.latest-news-link{color:var(--gold);font-size:11px;white-space:nowrap;font-weight:900;letter-spacing:.05em;
+  border:1px solid #876d44;padding:15px 17px;display:inline-flex;align-items:center;gap:14px}
+.latest-news-link:hover{background:rgba(223,178,110,.12)}
+.latest-news-link span{font-size:18px}
+@media(max-width:900px){.latest-news{grid-template-columns:1fr;margin:24px 22px 0;gap:14px}
+  .latest-news-link{justify-self:start}}
